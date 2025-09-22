@@ -12,9 +12,9 @@
   {
     "id": 1,
     "title": "Truyền Thuyết Đức Phật",
-    "cover": "https://thuviensach8x.github.io/bookstore_data_1/truyenthuyetducphat_bia.jpg",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/viet_gi_cung_dung_bia.jpg",
     "chapters": [
-      { "name": "Chap 1", "link": "https://thuviensach8x.github.io/bookstore_data_1/truyen_thuyet_duc_phat_Chap001.html" }      
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/viet_gi_cung_dung.html" }      
     ]
   }
 ]
