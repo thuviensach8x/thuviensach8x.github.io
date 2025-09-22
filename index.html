@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thuviensach</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="thuviensach Logo">
+        <span>thuviensach</span>
+      </a>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="🔍 Tìm sách...">
+      <button onclick="searchManga()">Tìm</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="manga-list" class="manga-grid"></div>
+    <div id="pagination" class="pagination"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    loadMangaList();  // Load danh sách truyện khi mở trang
+  </script>
+</body>
+</html>
+

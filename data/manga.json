@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "title": "dat_ten_sach",
+    "cover": "https://i.imgur.com/2.jpg",
+    "chapters": [
+      { "name": "Chap 1", "link": "https://your-repo-2/chapter1.html" },
+      { "name": "Chap 2", "link": "https://your-repo-2/chapter2.html" }
+    ]
+  },
+  
+  {
+    "id": 1,
+    "title": "Truyền Thuyết Đức Phật",
+    "cover": "https://mangacolor.github.io/mangacolor_data_1/truyenthuyetducphat_bia.jpg",
+    "chapters": [
+      { "name": "Chap 1", "link": "https://mangacolor.github.io/mangacolor_data_1/truyen_thuyet_duc_phat_Chap001.html" }
+      
+    ]
+  }
+  
+
+
+]
