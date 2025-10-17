@@ -27,13 +27,11 @@ header {
 }
 
 .logo img {
-  height: 45px;       /* ép chiều cao logo */
-  width: auto !important;   /* giữ tỉ lệ gốc, không bị kéo ngang */
+  height: 45px;
+  width: auto !important;
   margin-right: 10px;
   display: inline-block;
 }
-
-
 
 .logo span {
   font-size: 22px;
@@ -72,19 +70,21 @@ header {
 /* ========== Lưới truyện (trang chủ) ========== */
 .manga-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* 3 cột */
-  gap: 20px;
-  padding: 20px;
-  justify-items: center; /* căn giữa mỗi card */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  justify-items: center;
+  gap: 25px;
+  padding: 30px 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .manga-card {
   background: white;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  width: 100%;
-  max-width: 220px; /* vừa với mỗi cột */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -94,17 +94,20 @@ header {
 
 .manga-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
 .manga-card img {
   width: 100%;
-  height: 280px;
+  height: 270px;
   object-fit: contain;
   background: #fafafa;
-  display: block;
   border-bottom: 1px solid #eee;
   transition: transform 0.3s ease;
+}
+
+.manga-card:hover img {
+  transform: scale(1.05);
 }
 
 .manga-card::after {
@@ -113,20 +116,16 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 280px;
-  background: rgba(0,0,0,0.5);
+  height: 270px;
+  background: rgba(0, 0, 0, 0.55);
   color: #fff;
   font-weight: bold;
+  font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
-  font-size: 16px;
-}
-
-.manga-card:hover img {
-  transform: scale(1.05);
+  transition: opacity 0.25s ease;
 }
 
 .manga-card:hover::after {
@@ -135,12 +134,12 @@ header {
 
 .manga-card h3 {
   font-size: 15px;
-  padding: 8px;
+  padding: 10px;
   margin: 0;
-  color: #333;
   background: #fafafa;
+  color: #333;
+  font-weight: 600;
 }
-
 
 /* ========== Pagination ========== */
 .pagination {
@@ -240,17 +239,6 @@ header {
 
 /* ========== Responsive ========== */
 @media (max-width: 992px) {
-  .manga-grid {
-    gap: 15px;
-  }
-}
-
-@media (max-width: 600px) {
-  .manga-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
   header {
     flex-direction: column;
     align-items: flex-start;
@@ -278,18 +266,25 @@ header {
     font-size: 14px;
     padding: 10px;
   }
-}
 
-
-/* ========== Responsive layout cho lưới truyện ========== */
-@media (max-width: 992px) {
   .manga-grid {
-    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    gap: 20px;
   }
 }
 
 @media (max-width: 600px) {
   .manga-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+    max-width: 100%;
+  }
+
+  .manga-card {
+    width: 160px;
+  }
+
+  .manga-card img {
+    height: 220px;
   }
 }
