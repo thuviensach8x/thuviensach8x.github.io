@@ -15,5 +15,133 @@
     "chapters": [
       { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/viet_gi_cung_dung.html" }      
     ]
+  },
+  {
+    "id": 2,
+    "title": "An Bình Tĩnh Nặng",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/An_binh_tinh_lang_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/An_binh_tinh_lang.html" }      
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bốn Bài Thiền Tập",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Bon_bai_thien_tap_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Bon_bai_thien_tap.html" }      
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Căn Bản Hành Thiền",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Can_ban_hanh_thien_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Can_ban_hanh_thien.html" }      
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Giới Thiệu Đạo Phật",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Gioi_thieu_dao_Phat_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Gioi_thieu_dao_Phat.html" }      
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lợi Ích Thiền Hành",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh.html" }      
+    ]
+  },{
+    "id": 7,
+    "title": "Lợi Ích Thiền Hành",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh.html" }      
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Lý Thuyết Thực Tế",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Ly_thuyet_thuc_te_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Ly_thuyet_thuc_te.html" }      
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mười Pháp Quán Tưởng",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Muoi_phap_quan_tuong_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Muoi_phap_quan_tuong.html" }      
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Những Lời Phật Dạy",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Nhung_loi_Phat_day_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Nhung_loi_Phat_day.html" }      
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Phật Pháp Vấn Đáp",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Phat_phap_van_dap_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Phat_phap_van_dap.html" }      
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Quả Vị Dự Lưu",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Qua_vi_Du_Luu_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Qua_vi_Du_Luu.html" }      
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Soi Sáng Lời Dạy Của Đức Phật - Tập 1",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_1_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_1.html" }      
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Soi Sáng Lời Dạy Của Đức Phật - Tập 2",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_2_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_2.html" }      
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Thương Yêu Thông Cảm",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Thuong_yeu_thong_cam_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Thuong_yeu_thong_cam.html" }      
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Tỉnh Thức Trước Bệnh Và Chết",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Tinh_thuc_truoc_benh_va_chet_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Tinh_thuc_truoc_benh_va_chet.html" }      
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Vì Sao Theo Phật",
+    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Vi_sao_toi_theo_Dao_Phat_bia.jpg",
+    "chapters": [
+      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Vi_sao_toi_theo_Dao_Phat.html" }      
+    ]
   }
+  
 ]
