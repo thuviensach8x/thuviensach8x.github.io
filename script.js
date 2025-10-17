@@ -3,16 +3,14 @@ const mangaPerPage = 6;
 let allManga = [];
 let originalManga = []; // Giữ danh sách gốc
 
-// Load danh sách truyện vào index.html
 function loadMangaList() {
   fetch("data/manga.json")
     .then(res => res.json())
     .then(data => {
-      originalManga = data;           // Lưu bản gốc
-      allManga = [...originalManga];  // Copy ra biến hiển thị
+      originalManga = data;
+      allManga = [...originalManga];
       renderPage(1);
 
-      // Gắn tìm kiếm realtime cho ô input
       const searchBox = document.getElementById("searchInput");
       if (searchBox) {
         searchBox.addEventListener("input", searchManga);
@@ -48,22 +46,17 @@ function renderPage(page) {
   renderPagination();
 }
 
-// Tìm kiếm truyện (realtime)
 function searchManga() {
   let keyword = document.getElementById("searchInput").value.toLowerCase();
-
   if (keyword.trim() === "") {
-    // Nếu không nhập gì -> trả lại toàn bộ danh sách
     allManga = [...originalManga];
   } else {
     allManga = originalManga.filter(m => m.title.toLowerCase().includes(keyword));
   }
-
   currentPage = 1;
   renderPage(currentPage);
 }
 
-// Phân trang
 function renderPagination() {
   const totalPages = Math.ceil(allManga.length / mangaPerPage);
   const pagination = document.getElementById("pagination");
@@ -111,7 +104,6 @@ function makeDot() {
   return dot;
 }
 
-// Load chi tiết 1 truyện trong detail.html
 function loadMangaDetail() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");

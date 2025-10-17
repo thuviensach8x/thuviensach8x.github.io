@@ -71,18 +71,19 @@ header {
 
 /* ========== Lưới truyện (trang chủ) ========== */
 .manga-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;  /* căn giữa card khi ít truyện */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 cột */
   gap: 20px;
   padding: 20px;
+  justify-items: center; /* căn giữa mỗi card */
 }
 
 .manga-card {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 200px; /* cố định chiều rộng card */
+  width: 100%;
+  max-width: 220px; /* vừa với mỗi cột */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
@@ -96,18 +97,16 @@ header {
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-/* Ảnh bìa */
 .manga-card img {
   width: 100%;
-  height: 280px;          /* đồng bộ chiều cao ảnh */
-  object-fit: contain;    /* hiển thị toàn bộ ảnh */
-  background: #fafafa;    /* nền để không bị trống */
+  height: 280px;
+  object-fit: contain;
+  background: #fafafa;
   display: block;
   border-bottom: 1px solid #eee;
   transition: transform 0.3s ease;
 }
 
-/* Overlay hover */
 .manga-card::after {
   content: "Xem chi tiết";
   position: absolute;
@@ -127,14 +126,13 @@ header {
 }
 
 .manga-card:hover img {
-  transform: scale(1.05); /* phóng to nhẹ */
+  transform: scale(1.05);
 }
 
 .manga-card:hover::after {
   opacity: 1;
 }
 
-/* Tên truyện */
 .manga-card h3 {
   font-size: 15px;
   padding: 8px;
@@ -142,6 +140,7 @@ header {
   color: #333;
   background: #fafafa;
 }
+
 
 /* ========== Pagination ========== */
 .pagination {
@@ -278,5 +277,19 @@ header {
   .chapter-list a {
     font-size: 14px;
     padding: 10px;
+  }
+}
+
+
+/* ========== Responsive layout cho lưới truyện ========== */
+@media (max-width: 992px) {
+  .manga-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .manga-grid {
+    grid-template-columns: 1fr;
   }
 }
