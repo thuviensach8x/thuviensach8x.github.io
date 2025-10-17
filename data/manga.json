@@ -55,16 +55,9 @@
     "chapters": [
       { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh.html" }      
     ]
-  },{
-    "id": 7,
-    "title": "Lợi Ích Thiền Hành",
-    "cover": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh_bia.jpg",
-    "chapters": [
-      { "name": "Đọc Sách", "link": "https://thuviensach8x.github.io/bookstore_data_1/Loi_ich_thien_hanh.html" }      
-    ]
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Lý Thuyết Thực Tế",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Ly_thuyet_thuc_te_bia.jpg",
     "chapters": [
@@ -72,7 +65,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Mười Pháp Quán Tưởng",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Muoi_phap_quan_tuong_bia.jpg",
     "chapters": [
@@ -80,7 +73,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Những Lời Phật Dạy",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Nhung_loi_Phat_day_bia.jpg",
     "chapters": [
@@ -88,7 +81,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Phật Pháp Vấn Đáp",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Phat_phap_van_dap_bia.jpg",
     "chapters": [
@@ -96,7 +89,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Quả Vị Dự Lưu",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Qua_vi_Du_Luu_bia.jpg",
     "chapters": [
@@ -104,7 +97,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Soi Sáng Lời Dạy Của Đức Phật - Tập 1",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_1_bia.jpg",
     "chapters": [
@@ -112,7 +105,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Soi Sáng Lời Dạy Của Đức Phật - Tập 2",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Soi_sang_loi_day_cua_Duc_Phat_Tap_2_bia.jpg",
     "chapters": [
@@ -120,7 +113,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "Thương Yêu Thông Cảm",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Thuong_yeu_thong_cam_bia.jpg",
     "chapters": [
@@ -128,7 +121,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "Tỉnh Thức Trước Bệnh Và Chết",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Tinh_thuc_truoc_benh_va_chet_bia.jpg",
     "chapters": [
@@ -136,7 +129,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "Vì Sao Theo Phật",
     "cover": "https://thuviensach8x.github.io/bookstore_data_1/Vi_sao_toi_theo_Dao_Phat_bia.jpg",
     "chapters": [
